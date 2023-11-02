@@ -2,7 +2,8 @@
   "ProfesorPato": [
     {
       "id": 1,
-      "nombre": "Juan Pérez",
+      "nombreUsuario": "Juan Pérez",
+      "contrasena": "1234",
       "edad": 20,
       "curso": "Matemáticas"
     },
