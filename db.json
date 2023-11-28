@@ -1,106 +1,73 @@
 {
-  "ProfesorPato": [
+  "Usuarios": [
+
     {
       "id": 1,
-      "nombreUsuario": "Juan Pérez",
-      "edad": 20,
-      "curso": "Matemáticas"
+      "nombre": "Patricio",
+      "apellido": "Yañez",
+      "username": "patricio",
+      "correo": "pa.yaneza@profesor.duoc.cl",
+      "password": "profe123",
+      "tipo": "Profesor"
     },
     {
       "id": 2,
-      "nombre": "María González",
-      "edad": 22,
-      "curso": "Matematicas"
+      "nombre": "Niguel",
+      "apellido": "Bose",
+      "username": "juanramos",
+      "correo": "miguelo@profesor.duoc.cl",
+      "password": "miguel",
+      "tipo": "Profesor"
     },
     {
       "id": 3,
-      "nombre": "Pedro Ramirez",
-      "edad": 19,
-      "curso": "Matematicas"
+      "nombre": "Pedro",
+      "apellido": "Talmor",
+      "username": "pepetapia",
+      "correo": "pepetapiaelbicis@duocuc.cl",
+      "password": "algo123",
+      "tipo": "Estudiante"
+
     },
     {
       "id": 4,
-      "nombre": "Alexis Soto",
-      "edad": 19,
-      "curso": "Matematicas"
-    },
-    {
-      "id": 5,
-      "nombre": "Camila Ramirez",
-      "edad": 21,
-      "curso": "Matematicas"
-    },
-    {
-      "id": 6,
-      "nombre": "Cristian Rojas",
-      "edad": 22,
-      "curso": "Matematicas"
-    },
-    {
-      "id": 7,
-      "nombre": "Cristina Araneda",
-      "edad": 18,
-      "curso": "Matematicas"
-    },
-    {
-      "id": 8,
-      "nombre": "Sayen Aros",
-      "edad": 20,
-      "curso": "Matematicas"
+      "nombre": "Mac",
+      "apellido": "Miller",
+      "username": "elpapu",
+      "correo": "maccapo@duocuc.cl",
+      "password": "algo123",
+      "tipo": "Estudiante"
+
     }
   ],
-
-
-  "ProfesorPinochet": [
+  "Asignaturas": [
     {
       "id": 1,
-      "nombre": "Juan Pérez",
-      "edad": 20,
-      "curso": "Historia"
+      "Sigla": "PGY4121",
+      "Nombre": "Programación de aplicaciones móviles",
+      "Secciones": ["001D","002D","003D"],
+      "Profesor": 1
     },
     {
       "id": 2,
-      "nombre": "María González",
-      "edad": 22,
-      "curso": "Historia"
+      "Sigla": "PGY2121",
+      "Nombre": "Desarrollo software escritorio",
+      "Secciones": ["001D","002D","003D","004D"],
+      "Profesor": 1
     },
     {
       "id": 3,
-      "nombre": "Pedro Ramirez",
-      "edad": 19,
-      "curso": "Historia"
+      "Sigla": "CSY41111",
+      "Nombre": "Calidad de Software",
+      "Secciones": ["001D","002D","003D"],
+      "Profesor": 2
     },
     {
       "id": 4,
-      "nombre": "Alexis Soto",
-      "edad": 19,
-      "curso": "Historia"
-    },
-    {
-      "id": 5,
-      "nombre": "Camila Ramirez",
-      "edad": 21,
-      "curso": "Historia"
-    },
-    {
-      "id": 6,
-      "nombre": "Cristian Rojas",
-      "edad": 22,
-      "curso": "Historia"
-    },
-    {
-      "id": 7,
-      "nombre": "Cristina Araneda", 
-      "edad": 18,
-      "curso": "Historia"
-    },
-    {
-      "id": 8,
-      "nombre": "Sayen Aros",
-      "edad": 20,
-      "curso": "Historia"
+      "Sigla": "PRY2111",
+      "Nombre": "Diseño de Prototipos",
+      "Secciones": ["001D","002D","003D"],
+      "Profesor": 2
     }
   ]
-
 }
-
